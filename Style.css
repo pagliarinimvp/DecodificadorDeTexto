@@ -6,3 +6,94 @@
     font-weight: 400;
     font-size: 32px;
 }
+
+.LogoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area_do_texto {
+    border: none;
+    color: darkblue;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: darkblue;
+}
+
+.area_do_texto {
+    outline: none;
+}
+
+
+.informacao {
+    font-size: 18px;
+    color: grey;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.botao_encriptar {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao_desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    color: darkblue;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensagem {
+    background: white;
+    background-image: url(Imagens/Imagem\ Mensagem\ .svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: darkblue;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botao_copiar {
+    background-color: white;
+    border: 1px solid lightblue;
+    border-radius: 24px;
+    color: lightblue;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 402px;
+    position: absolute;
+    margin-left: 108px;
+    width: 336px;
+}
